@@ -6,6 +6,26 @@
 
 ---
 
+## 版本说明
+
+<details>
+<summary><strong>v2.0 (2025-07-20)</strong></summary>
+
+- **接口更新**：修复了由于学校体育打卡系统接口变更导致的登录失败问题。
+</details>
+
+<details>
+<summary><strong>v1.0 (初始版本)</strong></summary>
+
+- 基础的CAS登录认证功能
+- 自动签到和签退操作
+- 邮件通知功能
+- 基本的日志记录
+
+</details>
+
+---
+
 ## 环境配置
 
 ### 依赖安装
@@ -13,7 +33,7 @@
 运行前需安装以下Python库：
 
 ```bash
-pip install requests pycryptodome 
+pip install requests pycryptodome beautifulsoup4
 ```
 
 ---
